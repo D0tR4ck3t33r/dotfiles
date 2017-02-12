@@ -13,16 +13,25 @@ endfunction
 
 " NeoBundle load Plugins
 call plug#begin('~/.vim/plugged')
+"Autoformating
 Plug 'Chiel92/vim-autoformat'
+"Better Rust Support
 Plug 'rust-lang/rust.vim'
-Plug 'scrooloose/nerdtree'
-Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'racer-rust/vim-racer'
+"File Tree
+Plug 'scrooloose/nerdtree'
+"Line numbers
+Plug 'jeffkreeftmeijer/vim-numbertoggle'
+"Linter
 Plug 'scrooloose/syntastic'
-Plug 'elixir-lang/vim-elixir'
 Plug 'thinca/vim-ref'
+"Better buffer handling
 Plug 'fholgado/minibufexpl.vim'
+"Autocompleting
 Plug 'Valloric/YouCompleteMe'
+"Better lua support
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-lua-ftplugin'
 call plug#end()
 
 
