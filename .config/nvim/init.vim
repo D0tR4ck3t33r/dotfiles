@@ -34,7 +34,6 @@ Plug 'xolox/vim-misc'
 Plug 'xolox/vim-lua-ftplugin'
 "elixir
 Plug 'elixir-lang/vim-elixir'
-
 call plug#end()
 
 
@@ -222,8 +221,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-"Powerline
-let g:Powerline_symbols = 'fancy'
+"Cp
 vnoremap <C-c> "*y
 
 "MiniBufExplorer
@@ -231,3 +229,4 @@ let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
+
