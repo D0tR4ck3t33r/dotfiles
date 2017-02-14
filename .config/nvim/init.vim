@@ -32,6 +32,9 @@ Plug 'Valloric/YouCompleteMe'
 "Better lua support
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-lua-ftplugin'
+"elixir
+Plug 'elixir-lang/vim-elixir'
+
 call plug#end()
 
 
