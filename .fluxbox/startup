@@ -23,6 +23,7 @@ xfce4-power-manager &
 synapse -s &
 pcmanfm -d &
 mopidy -q &
+nitrogen --restore &
 # And last but not least we start fluxbox.
 # Because it is the last app you have to run it with ''exec'' before it.
 
