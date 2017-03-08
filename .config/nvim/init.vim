@@ -230,3 +230,6 @@ let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
 
+" :w!! 
+" write the file when you accidentally opened it without the right (root) privileges
+cmap w!! w !sudo tee % > /dev/null
