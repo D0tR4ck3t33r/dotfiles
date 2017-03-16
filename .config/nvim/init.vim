@@ -34,6 +34,8 @@ Plug 'xolox/vim-misc'
 Plug 'xolox/vim-lua-ftplugin'
 "elixir
 Plug 'elixir-lang/vim-elixir'
+"Javascript
+Plug 'pangloss/vim-javascript'
 call plug#end()
 
 
@@ -233,3 +235,6 @@ let g:miniBufExplModSelTarget = 1
 " :w!! 
 " write the file when you accidentally opened it without the right (root) privileges
 cmap w!! w !sudo tee % > /dev/null
+
+"Javascript
+let g:javascript_plugin_flow = 1
